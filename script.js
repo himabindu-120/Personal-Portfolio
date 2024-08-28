@@ -43,16 +43,18 @@ function isElementInViewport(el) {
 
 
 const headerBtn = document.getElementById("header-btn");
-const socialContact = document.getElementById("social-contact");
-const contactForm = document.getElementById("contact");
+const socialContact = document.getElementById("social");
+/*const contactForm = document.getElementById("contact");*/
 
-function scrollToForm() {
-  contactForm.scrollIntoView({ behavior: "smooth" }); 
+function scrollToSocial() {
+  socialContact.scrollIntoView({ behavior: "smooth" }); 
 }
+  
 
-headerBtn.addEventListener("click", scrollToForm);
-socialContact.addEventListener("click", scrollToForm);
+headerBtn.addEventListener("click", scrollToSocial);
+/*socialContact.addEventListener("click", scrollToForm);
 
 
 const contactFormNoBots = document.getElementById("contact-form-no-bots");
 contactFormNoBots.parentNode.removeChild(contactFormNoBots);
+*/
