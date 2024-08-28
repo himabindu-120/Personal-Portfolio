@@ -330,6 +330,7 @@
     display: block;
     font-weight: bold;
   }
+  /*
   
   .contact-form {
     display: grid;
@@ -360,7 +361,7 @@
     background-color: var(--red);
     color: var(--lighter-black);
   }
-  
+  */
  
   footer {
     background: var(--black);
@@ -501,20 +502,22 @@
       grid-template-columns: repeat(2, minmax(100px, 1fr));
     }
   }
-  
+  /*
   @media only screen and (max-width: 550px) {
     .contact-form {
       grid-template-columns: 1fr;
     }
   }
+    */
   
   @media only screen and (max-width: 450px) {
     h2 {
       font-size: 3.7em;
     }
   
-    .contact-form {
+    /*.contact-form {
       grid-template-columns: 1fr;
     }
+      */
   }
   
